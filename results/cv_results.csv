@@ -1,0 +1,14 @@
+dataset,cv_dR2_real,cv_dR2_shuf
+DatlingerBock2017,nan,nan
+DatlingerBock2021,nan,nan
+FrangiehIzar2021_RNA,0.0470,0.0365
+NadigOConner2024_hepg2,0.0314,0.0227
+NadigOConner2024_jurkat,0.0190,0.0336
+NormanWeissman2019_filtered,0.0978,0.0598
+PapalexiSatija2021_eccite_RNA,nan,nan
+ReplogleWeissman2022_K562_essential,0.0580,0.0578
+ReplogleWeissman2022_rpe1,0.0324,0.0285
+TianKampmann2019_day7neuron,-0.2752,-0.1537
+TianKampmann2019_iPSC,-0.3832,-0.3221
+TianKampmann2021_CRISPRa,-0.0299,-0.0804
+TianKampmann2021_CRISPRi,-0.0590,-0.0069

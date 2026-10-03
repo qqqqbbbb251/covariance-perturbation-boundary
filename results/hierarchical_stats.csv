@@ -1,0 +1,4 @@
+comparison,mean,lo,hi,width
+full-global,-0.0307,-0.0494,-0.0148,0.0346
+full-random,-0.0090,-0.0291,+0.0062,0.0353
+global-random,+0.0217,+0.0061,+0.0386,0.0325

@@ -1,0 +1,18 @@
+section,name,value,n_datasets,p_value
+mean_auc,posterior,0.9305,8,
+mean_auc,posterior_selfremoved,0.7440,8,
+mean_auc,posterior_controlvar,0.9306,8,
+mean_auc,posterior_controlvar_selfremoved,0.7435,8,
+mean_auc,posterior_diagSigma,0.9334,8,
+mean_auc,posterior_diagSigma_selfremoved,0.3717,8,
+mean_auc,posterior_no_uncinfl,0.8165,8,
+mean_auc,posterior_stdonly,0.7488,8,
+mean_auc,matched_filter,0.7251,8,
+mean_auc,magnitude,0.7176,8,
+contrast,full - diagSigma (drop cross-gene covariance),-0.0029,8,0.7422
+contrast,full - selfremoved (drop target coordinate),0.1865,8,0.007812
+contrast,full - controlvar (drop per-pert variance),-0.0001,8,0.4062
+contrast,full - no_uncertainty_inflation,0.1141,8,0.03906
+contrast,full - matched_filter,0.2054,8,0.007812
+contrast,full - magnitude,0.2130,8,0.007812
+contrast,diagSigma - diagSigma_selfremoved,0.5617,8,0.007812

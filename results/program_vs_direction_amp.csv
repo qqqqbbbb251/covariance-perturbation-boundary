@@ -1,0 +1,7 @@
+dataset,amp_reliab_top1,mean_align_top1
+ReplogleWeissman2022_K562_essential,0.9441,0.4632
+ReplogleWeissman2022_rpe1,0.9565,0.4500
+NormanWeissman2019_filtered,0.9212,0.6028
+NadigOConner2024_hepg2,0.8646,0.4306
+NadigOConner2024_jurkat,0.8519,0.4356
+TianKampmann2021_CRISPRi,0.1291,0.5442

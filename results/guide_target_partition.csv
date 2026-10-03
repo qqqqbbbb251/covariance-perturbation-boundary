@@ -1,0 +1,7 @@
+dataset,n_targets,n_guides,guide_agreement,within_guide_reliab,target_mean_reliab,target_frac,target_frac_null,target_excess
+ReplogleWeissman2022_K562_essential,94,188,0.0657,0.4427,0.0657,0.5162,0.5209,-0.0047
+ReplogleWeissman2022_rpe1,105,228,0.1945,0.5340,0.1480,0.5660,0.5303,0.0357
+ReplogleWeissman2022_K562_gwps_filtered,279,563,0.0451,0.2693,0.0458,0.5166,0.5014,0.0153
+NadigOConner2024_jurkat,104,224,0.1550,0.4618,0.1143,0.5376,0.5187,0.0189
+NadigOConner2024_hepg2,73,161,0.1855,0.4926,0.1266,0.5588,0.4929,0.0659
+NormanWeissman2019_filtered,47,95,0.9462,0.9011,0.9442,0.9843,0.6792,0.3051

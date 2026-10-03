@@ -1,0 +1,17 @@
+dataset,n_ctrl,n_batch,n_guide,n_celltype,corr_total,corr_mor,partial_mor_given_batch,partial_mor_given_guide,partial_mor_given_pc2_5,partial_mor_given_pc1_5,partial_mor_given_pc1_10,eta2_batch,eta2_celltype
+AissaBenevolenskaya2021,3000,1,0,1,0.8800,0.6375,0.6375,nan,0.7343,-0.1204,-0.0473,0.0000,nan
+ChangYe2021,3000,0,0,0,0.9165,0.8836,nan,nan,0.9698,-0.0649,-0.0176,nan,nan
+DatlingerBock2017,1320,0,0,1,0.9603,0.9392,nan,nan,0.9896,0.0344,0.0652,nan,nan
+DatlingerBock2021,3000,0,0,1,0.9156,0.3343,nan,nan,0.3636,0.1037,0.0925,nan,nan
+FrangiehIzar2021_RNA,3000,0,1023,1,0.9623,0.9410,nan,nan,0.9772,-0.0674,-0.0659,nan,nan
+NadigOConner2024_hepg2,3000,56,130,0,0.9835,0.9705,0.9458,0.9702,0.9871,-0.0239,-0.0232,0.4783,nan
+NadigOConner2024_jurkat,3000,55,130,0,-0.9854,-0.9717,-0.9568,-0.9718,-0.9907,0.0604,0.0981,0.4245,nan
+NormanWeissman2019_filtered,3000,0,4,1,0.9793,0.9283,nan,0.9283,0.9688,-0.0360,-0.0762,nan,nan
+PapalexiSatija2021_eccite_RNA,2386,0,9,1,0.7219,0.6095,nan,0.6097,0.9053,-0.0476,-0.0329,nan,nan
+PapalexiSatija2021_eccite_arrayed_RNA,2009,0,2,1,-0.9626,-0.9043,nan,-0.9044,-0.9451,-0.0175,-0.0338,nan,nan
+ReplogleWeissman2022_K562_essential,3000,48,97,0,-0.9448,-0.9031,-0.8972,-0.9035,-0.9722,0.0802,0.0765,0.2011,nan
+ReplogleWeissman2022_rpe1,3000,56,113,1,-0.9627,-0.9277,-0.9063,-0.9288,-0.9795,-0.0036,0.0831,0.3261,nan
+TianKampmann2019_day7neuron,3000,2,2,1,0.9773,0.9648,0.9647,0.9648,0.9853,-0.0405,0.0564,0.0038,nan
+TianKampmann2019_iPSC,3000,2,2,1,-0.9770,-0.5301,-0.5302,-0.5302,-0.7405,-0.2785,-0.2489,0.0000,nan
+TianKampmann2021_CRISPRa,434,2,6,1,-0.8827,-0.8496,-0.8435,-0.8464,-0.9872,-0.0819,-0.0767,0.0790,nan
+TianKampmann2021_CRISPRi,437,4,6,1,-0.9471,-0.9297,-0.9263,-0.9303,-0.9906,-0.0122,0.0033,0.0691,nan

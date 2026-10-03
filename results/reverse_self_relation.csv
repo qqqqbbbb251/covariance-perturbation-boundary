@@ -1,0 +1,9 @@
+dataset,n_perts,auc_full,auc_diag,spearman_auc_selfz,spearman_auc_targexpr,auc_full_weakself,auc_diag_weakself,auc_full_strongself,auc_diag_strongself,n_weak
+NormanWeissman2019_filtered,103,0.9829,0.9578,0.3719,0.2265,0.9394,0.8749,0.9976,0.9858,26
+ReplogleWeissman2022_K562_essential,300,0.9948,0.9660,0.2837,-0.1330,0.9871,0.9856,0.9974,0.9595,75
+FrangiehIzar2021_RNA,222,0.9567,0.8909,0.3765,-0.1665,0.9499,0.9199,0.9589,0.8811,56
+NadigOConner2024_hepg2,230,0.9779,0.9306,0.3104,0.4834,0.9557,0.9407,0.9854,0.9271,58
+NadigOConner2024_jurkat,300,0.9825,0.9322,0.3740,0.0710,0.9364,0.8822,0.9978,0.9489,75
+ReplogleWeissman2022_rpe1,300,0.9878,0.9568,0.3597,0.1721,0.9652,0.9185,0.9954,0.9695,75
+TianKampmann2021_CRISPRa,92,0.8026,0.9200,0.1527,-0.0449,0.7139,0.7161,0.8322,0.9880,23
+TianKampmann2021_CRISPRi,174,0.7591,0.9132,-0.0151,-0.5085,0.7703,0.8448,0.7553,0.9364,44

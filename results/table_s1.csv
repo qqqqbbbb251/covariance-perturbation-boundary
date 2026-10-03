@@ -1,0 +1,23 @@
+dataset,cohort,source,cells,genes,control_cells,single_perturbations,double_perturbations,global_mode,cipher_repro,predictive,expression_space,cross_lab
+AissaBenevolenskaya2021,primary,scPerturb (Zenodo 13350497),119071,17820,29983,3,0,0,0,0,0,0
+ChangYe2021,primary,scPerturb (Zenodo 13350497),42277,45066,21043,3,0,0,0,0,0,0
+DatlingerBock2017,primary,scPerturb (Zenodo 13350497),5905,36722,1320,68,0,1,1,0,0,0
+DatlingerBock2021,primary,scPerturb (Zenodo 13350497),39194,25904,4497,40,40,1,0,0,0,0
+FrangiehIzar2021_RNA,primary,scPerturb (Zenodo 13350497),218331,23712,57605,245,0,1,1,1,1,0
+NadigOConner2024_hepg2,primary,scPerturb (Zenodo 13350497),145473,9624,4976,1818,0,1,1,1,1,0
+NadigOConner2024_jurkat,primary,scPerturb (Zenodo 13350497),262956,8882,12013,2137,0,1,1,1,1,0
+NormanWeissman2019_filtered,primary,scPerturb (Zenodo 13350497),111445,33694,11855,105,131,1,1,1,1,0
+PapalexiSatija2021_eccite_RNA,primary,scPerturb (Zenodo 13350497),20729,18649,2386,90,0,0,0,0,0,0
+PapalexiSatija2021_eccite_arrayed_RNA,primary,scPerturb (Zenodo 13350497),8984,16826,2009,9,0,1,1,0,0,0
+ReplogleWeissman2022_K562_essential,primary,scPerturb (Zenodo 13350497),310385,8563,10691,1971,0,1,1,1,1,0
+ReplogleWeissman2022_rpe1,primary,scPerturb (Zenodo 13350497),247914,8749,11485,2016,0,1,1,1,1,0
+TianKampmann2019_day7neuron,primary,scPerturb (Zenodo 13350497),182790,33752,15580,26,355,1,0,1,0,0
+TianKampmann2019_iPSC,primary,scPerturb (Zenodo 13350497),275708,33752,10687,26,354,1,0,1,0,0
+TianKampmann2021_CRISPRa,primary,scPerturb (Zenodo 13350497),21193,33538,434,100,0,1,1,1,1,0
+TianKampmann2021_CRISPRi,primary,scPerturb (Zenodo 13350497),32300,33538,437,184,0,1,1,1,1,0
+ReplogleWeissman2022_K562_gwps_filtered,additional,Replogle 2022 [5]; CIPHER benchmark (Zenodo 21729034),385848,8248,10000,999,0,0,0,0,0,1
+XAtlas2025_HCT116_filtered,additional,X-Atlas/Orion [14]; CIPHER benchmark (Zenodo 21729034),377537,38606,10000,999,0,0,0,0,0,1
+XAtlas2025_HEK293T_filtered,additional,X-Atlas/Orion [14]; CIPHER benchmark (Zenodo 21729034),504256,38606,10000,999,0,0,0,0,0,1
+proper_filtered,additional,"CIPHER benchmark, Zenodo 21729034 (lab-generated; no upstream publication)",52030,18099,2280,84,108,0,0,0,0,1
+schemidt_etal_2022_crispra_perturbseq,additional,Schmidt 2022 [16] (GEO GSE190604); CIPHER benchmark (Zenodo 21729034),57835,24709,3724,69,0,0,0,0,0,1
+akana_etal_2026_crispra_perturbseq,additional,Akana 2026 [17] (figshare 10.6084/m9.figshare.31119196); CIPHER benchmark (Zenodo 21729034),20207,36591,2660,61,0,0,0,0,0,1

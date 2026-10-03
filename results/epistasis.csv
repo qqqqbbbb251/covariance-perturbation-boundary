@@ -1,0 +1,2 @@
+dataset,n_doubles,mean_additive_cos2,mean_I_over_dAB,mean_Ioff_over_I,mean_global_frac_dAB,n_ppi_edges,additive_cos2_ppi,additive_cos2_nonppi,Inorm_ppi,Inorm_nonppi
+NormanWeissman2019_filtered,129,0.8503,0.5801,0.6631,0.5400,18,0.8892,0.8440,114.6574,91.9603

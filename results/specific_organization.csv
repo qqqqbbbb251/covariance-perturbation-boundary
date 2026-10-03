@@ -1,0 +1,4 @@
+dataset,n_targets,corr_expr_resid_sim,corr_null_mean,corr_p,cos2_copy_coexpr,cos2_copy_random,cos2_all_targets
+ReplogleWeissman2022_K562_essential,112,-0.0137,0.0027,0.5850,0.1664,0.1470,0.0740
+ReplogleWeissman2022_rpe1,97,0.0551,-0.0111,0.3450,0.1483,0.1366,0.1893
+NormanWeissman2019_filtered,102,-0.0573,0.0049,0.4100,0.2176,0.3158,0.4093

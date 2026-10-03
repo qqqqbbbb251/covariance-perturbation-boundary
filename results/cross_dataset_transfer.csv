@@ -1,0 +1,4 @@
+pair,n_shared,n_perts,within_full_cos,within_global_cos,cross_full_cos,cross_global_cos,cross_random_cos,within_full_r2,within_global_r2,cross_full_r2,cross_global_r2,cross_random_r2
+NadigOConner2024_hepg2->NadigOConner2024_jurkat,1087,34,0.3851,0.3830,0.3536,0.3495,0.3508,0.3851,0.3830,0.3536,0.3495,0.3508
+ReplogleWeissman2022_K562_essential->ReplogleWeissman2022_rpe1,1093,49,0.3075,0.3444,0.2777,0.2786,0.2807,0.3075,0.3444,0.2777,0.2786,0.2807
+TianKampmann2021_CRISPRa->TianKampmann2021_CRISPRi,1374,38,0.4057,0.4072,0.4080,0.4085,0.3870,0.4057,0.4072,0.4080,0.4085,0.3870

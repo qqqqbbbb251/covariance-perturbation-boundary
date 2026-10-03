@@ -1,0 +1,27 @@
+dataset,pert_col,n_cells,n_targets,cell_line,modality
+NadigOConner2024_jurkat,perturbation,262956,1916,Jurkat,CRISPR
+ReplogleWeissman2022_K562_essential,perturbation,310385,1789,K562,CRISPR
+ReplogleWeissman2022_rpe1,perturbation,247914,1755,RPE1,CRISPR
+NadigOConner2024_hepg2,perturbation,145473,1651,Hep-G2,CRISPR
+XAtlas2025_HCT116_filtered,perturbation,377537,999,,
+XAtlas2025_HEK293T_filtered,perturbation,504256,999,,
+ReplogleWeissman2022_K562_gwps_filtered,perturbation,385848,773,K562,CRISPR
+FrangiehIzar2021_RNA,perturbation,218331,236,cell_line_co-culture,CRISPR
+TianKampmann2021_CRISPRi,perturbation,32300,181,primary,CRISPR
+NormanWeissman2019_filtered,perturbation,111445,102,K562,CRISPR
+TianKampmann2021_CRISPRa,perturbation,21193,98,primary,CRISPR
+proper_filtered,perturbation,52030,82,,
+schemidt_etal_2022_crispra_perturbseq,perturbation,57835,69,,
+akana_etal_2026_crispra_perturbseq,perturbation,20207,60,,
+TianKampmann2019_iPSC,perturbation,275708,26,stem,CRISPR
+TianKampmann2019_day7neuron,perturbation,182790,26,primary,CRISPR
+DatlingerBock2017,perturbation,5905,26,Jurkat cells,CRISPR
+DatlingerBock2021,perturbation,39194,20,Jurkat cells,CRISPR
+GasperiniShendure2019_lowMOI,perturbation,41284,12,K562,CRISPR
+JoungZhang2023_combinatorial,perturbation,167947,10,hESCs,ORF overexpression
+PapalexiSatija2021_eccite_arrayed_RNA,perturbation,8984,8,THP-1,CRISPR
+AdamsonWeissman2016_GSM2406675_10X001,perturbation,5768,7,K562,CRISPR
+AdamsonWeissman2016_GSM2406677_10X005,perturbation,15006,1,K562,CRISPR
+DixitRegev2016_K562_TFs_7_days,perturbation,33013,0,K562,CRISPR
+SrivatsanTrapnell2020_sciplex3,perturbation,799317,0,MCF7,drug
+PapalexiSatija2021_eccite_RNA,perturbation,20729,0,THP-1,CRISPR

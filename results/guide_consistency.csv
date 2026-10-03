@@ -1,0 +1,5 @@
+dataset,n_targets_multiguide,guide_agreement,guide_agreement_median
+ReplogleWeissman2022_K562_essential,43,0.1223,0.0870
+ReplogleWeissman2022_rpe1,37,0.1866,0.1051
+ReplogleWeissman2022_K562_gwps_filtered,57,0.0639,0.0844
+NadigOConner2024_jurkat,43,0.0707,0.0792

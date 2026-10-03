@@ -1,0 +1,7 @@
+dataset,n_perts,var_rel_full,var_rel_null_full,var_rel_spec,var_rel_null_spec,var_rsa_spec,mean_rel_spec,mean_rsa_spec
+ReplogleWeissman2022_K562_essential,112,0.7601,0.0544,0.7542,0.0238,0.1785,0.8644,0.5167
+ReplogleWeissman2022_rpe1,97,0.5444,0.1356,0.4758,0.0035,0.1958,0.7791,0.4586
+NormanWeissman2019_filtered,102,0.8017,0.2971,0.7295,0.0402,0.3411,0.9436,0.8074
+NadigOConner2024_hepg2,112,0.2956,-0.0482,0.2791,-0.0738,0.0696,0.6223,0.1946
+NadigOConner2024_jurkat,109,0.1880,0.0086,0.1637,-0.0253,0.0534,0.6248,0.2585
+TianKampmann2021_CRISPRi,117,0.0796,0.0053,0.0485,-0.0286,-0.0071,0.1528,0.0150

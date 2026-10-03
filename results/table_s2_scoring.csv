@@ -1,0 +1,11 @@
+analysis,metric,definition,space,script
+cipher_reproduction_table,cipher_uncentered_r2_and_cosine_holdout0.5_10splits,"uncentered R2 = 1 - SSE/sum(y^2) on held-out genes (holdout_frac=0.5) and cosine; mean over 10 gene splits; matched random column",raw and pflog,cipher_repro_table.py
+cipher_baselines,cipher_uncentered_r2_holdout0.5,1 - SSE/sum(y_true^2) on held-out genes (holdout_frac=0.5),raw and pflog,cipher_baselines.py
+scan/global-mode,scale_only_r2,cos^2(delta; prediction) squared cosine,raw and cpm,scan_final.py
+diagnostic,scale_only_r2,cos^2(delta; prediction) squared cosine,raw and cpm,diagnostic.py
+spaces,scale_only_r2,cos^2(delta; prediction) squared cosine,raw/cpm/logcpm/pearson,spaces_diagnostic.py
+random_column,scale_only_r2,cos^2(delta; Sigma column) squared cosine,raw,random_column_stats.py
+pearson_source,scale_only_r2,cos^2(delta; Sigma column) squared cosine,pearson residuals,pearson_stats.py
+hierarchical,scale_only_r2,cos^2(delta; prediction) squared cosine,raw,hierarchical_stats.py
+cv_results,cv_delta_r2,held-out-cell R2 of nested [v;Sigma_perp] minus [v],raw,cv_equivalence.py
+double_pert,cipher_uncentered_r2_holdout0.5,1 - SSE/sum(y_true^2) on held-out genes,raw,double_pert.py

@@ -1,0 +1,18 @@
+# Exact environment used for all analyses (Windows, CPython 3.12.10).
+# Install:  python -m pip install -r requirements.txt
+# CIPHER (github.com/GoyalLab/CIPHER) additionally installed editable:
+#   python -m pip install --no-deps -e <path-to-CIPHER-main>
+numpy==2.5.3
+# NOTE (Windows Smart App Control): SAC in enforcement blocks some unsigned .pyd files
+# (WinError 4551). Working versions on this machine: scipy 1.18.0 (1.18.1's _sparsetools
+# was blocked) and numcodecs 0.16.1 (0.17.0's vlen was blocked). pandas 3.0.6 / h5py 3.16.0
+# were reinstalled to clear transient blocks. If a fresh install is blocked, either disable
+# Smart App Control (admin, irreversible) or swap to a build whose .pyd is allowed.
+scipy==1.18.0
+pandas==3.0.6
+anndata==0.13.4
+h5py==3.16.0
+numcodecs==0.16.1
+matplotlib==3.11.2
+statsmodels==0.15.0
+tqdm==4.70.1

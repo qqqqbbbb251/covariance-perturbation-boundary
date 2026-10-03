@@ -1,0 +1,14 @@
+dataset,full_mean,full_lo,full_hi,shuf_mean,selfzero_mean,d_full_minus_shuf,p_wilcoxon
+DatlingerBock2017,nan,nan,nan,nan,nan,+nan,nan
+DatlingerBock2021,nan,nan,nan,nan,nan,+nan,nan
+FrangiehIzar2021_RNA,0.0823,0.0629,0.1034,0.0794,0.0831,+0.0029,0.994
+NadigOConner2024_hepg2,0.0690,0.0528,0.0870,0.0516,0.0720,+0.0174,0.112
+NadigOConner2024_jurkat,0.0303,0.0225,0.0390,0.0357,0.0355,-0.0053,0.798
+NormanWeissman2019_filtered,0.1091,0.0801,0.1439,0.0232,0.0561,+0.0859,7.69e-09
+PapalexiSatija2021_eccite_RNA,nan,nan,nan,nan,nan,+nan,nan
+ReplogleWeissman2022_K562_essential,0.0268,0.0200,0.0344,0.0306,0.0298,-0.0038,0.49
+ReplogleWeissman2022_rpe1,0.0998,0.0744,0.1284,0.0849,0.1140,+0.0149,0.581
+TianKampmann2019_day7neuron,nan,nan,nan,nan,nan,+nan,nan
+TianKampmann2019_iPSC,nan,nan,nan,nan,nan,+nan,nan
+TianKampmann2021_CRISPRa,0.0162,0.0104,0.0231,0.0034,0.0063,+0.0128,9.84e-05
+TianKampmann2021_CRISPRi,0.0281,0.0199,0.0374,0.0239,0.0287,+0.0041,0.181

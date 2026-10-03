@@ -1,0 +1,69 @@
+# ---- large raw / benchmark data (do not version) ----
+gpu_stage/
+*.h5ad
+*.h5
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.zip
+*.csv.gz
+
+# ---- patch backups ----
+*.bak
+*.orig
+*.dcols.bak
+*.makego*.bak
+*.predpatch*.bak
+*.gopatch*.bak
+*.strdtype.bak
+*.testperts.bak
+
+# ---- logs / scratch ----
+*.log
+*.err
+*.out
+scan.out
+
+# ---- python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- OS / editor lock files ----
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+
+# ---- heavy regenerable renders (keep the PDF) ----
+paper_v13.html
+paper_v13.docx
+
+# ---- submission build artifacts (regenerate with code/make_submission.py) ----
+submission/
+
+# ---- keep the small result arrays that verify_results.py needs ----
+!results/*.npz
+
+# ---- internal working notes and drafts (not part of the public release) ----
+HANDOFF.md
+PROMPT_FOR_NEXT_AGENT*.md
+GPU_*.md
+SOTA_*.md
+start.bat
+_醒来先看这个.md
+论文_大纲.md
+下一步方向.md
+总结_*.md
+探索*.md
+新结果_*.md
+方法_*.md
+汇报_*.md
+理论_*.md
+paper_v10.md
+paper_v12.md
+paper_v13_illustrated.md
+legacy_papers/

@@ -1,0 +1,82 @@
+file,rows,cols,description
+axis_origin.csv,8,17,PC1 nuisance + equal-depth resampling
+ci_results.csv,13,10,
+cipher_baselines.csv,28,7,legacy per-dataset CIPHER baselines (superseded by cipher_reproduction_table)
+cipher_reproduction_table.csv,26,23,"official-framework forward R2 (full/global/matched random), 10 splits"
+component_enrichment.csv,15,5,Enrichr identity of residual components
+component_signatures.csv,50,16,curated signature enrichment of components
+component_signatures_top.csv,50,4,top genes per component
+composition_control.csv,16,14,global mode vs MOR/size/composition
+confound_extended.csv,16,21,batch/guide/PC controls
+covariance_estimators.csv,18,6,operator predictability vs covariance estimator
+cross_dataset_specific.csv,18,9,cross-dataset specific-residual cosine (same vs shuffled target)
+cross_dataset_transfer.csv,3,13,cross-dataset forward transfer
+cross_lab_inventory.csv,26,6,per-dataset targets/cell line/modality
+cross_lab_pairs.csv,32,3,shared-target counts between datasets
+cross_transfer_pairs.csv,5,6,
+cv_results.csv,13,3,
+dataset_table.csv,16,6,legacy dataset table (superseded by table_s1)
+deconfound_results.csv,13,8,
+diagnostic_results.csv,13,19,legacy diagnostic table (largely NaN; not in final pipeline)
+differential_identity.csv,33,11,
+distribution_specific.csv,5,6,mean/var/zero/W1 reliability
+double_pert_results.csv,2,7,double perturbation forward
+epistasis.csv,1,11,double-perturbation interaction decomposition
+equivalence_results.csv,10,5,
+exp12_stats.csv,27,7,
+exploration_stats.csv,14,8,consolidated CIs and tests
+gene_sensitivity.csv,36,6,structure vs gene panel size
+global_mode_identity.csv,16,9,
+guide_consistency.csv,4,4,same-target guide agreement (confound test)
+guide_target_partition.csv,6,9,target-common vs guide-specific energy / reliability
+guide_target_transfer.csv,12,6,cross-dataset transfer vs number of guides averaged
+hierarchical_stats.csv,3,5,stratified bootstrap contrasts
+hvg_results.csv,13,10,
+inverse_decompose.csv,8,17,reverse ablation (self vs covariance)
+inverse_decompose_stats.csv,17,5,reverse ablation stats
+inverse_false_positive.csv,30,12,matched-filter / self-removed / magnitude
+inverse_official.csv,13,11,official posterior inverse driver AUC
+mixed_effects.csv,3,14,mixed-model contrasts
+paired_stats.csv,13,9,
+pc_robustness.csv,30,3,structure vs #control PCs removed
+pearson_source.csv,13,8,
+pearson_stats.csv,10,13,Pearson-residual full vs random vs negative control; FDR
+per_dataset_summary.csv,10,12,per-dataset forward summary
+positive_control.csv,6,3,
+positive_controls_extra.csv,6,5,
+program_vs_direction.csv,30,6,program vs direction decomposition
+program_vs_direction_amp.csv,6,3,amplitude reliability
+random_column_results.csv,13,8,
+random_column_stats.csv,10,10,matched random-column full vs random (scale-only cosine)
+real_power_analysis.csv,2,17,MDE / power
+realistic_positive_control.csv,6,2,
+residual_decomposition.csv,10,9,R2 self/shared/residual
+residual_reproducibility.csv,36,21,split-half RSA reliability (per dataset x space)
+reverse_self_relation.csv,8,11,reverse AUC vs self z; weak-self regime
+robustness_extra.csv,57,4,leave-one-dataset-out / extra robustness
+robustness_results.csv,13,6,
+scan_results.csv,1,13,
+scores_vs_globalmode.csv,16,10,
+second_moment.csv,6,9,variance-response reproducibility
+second_order_cov.csv,4,9,covariance-response reproducibility
+size_factor_results.csv,16,5,
+sota_decompose.csv,2,10,model predictions under the decomposition (CIPHER/linear_mean)
+spaces_results.csv,11,25,
+specific_network.csv,8,11,PPI/genetic network organization
+specific_organization.csv,3,8,co-expression organization test
+specific_pathway.csv,24,11,KEGG/Reactome/GO/TF organization
+specific_prediction.csv,10,12,LOO-SVD + cross-dataset Procrustes transfer
+specific_robustness.csv,3,9,structure robustness (z-score / gene removal)
+specific_structure.csv,8,18,residual SVD + operator predictability
+specific_structure_topgenes.csv,8,3,top genes per residual component
+specificity_positive_control.csv,7,8,
+spectrum_null.csv,8,18,covariance eigen-spectrum vs permutation null
+spectrum_rank.csv,20,11,
+strong_r2.csv,13,7,
+structure_meta.csv,12,12,structure strength vs dataset properties
+table_s1.csv,16,9,dataset table
+table_s2_scoring.csv,10,5,scoring summary
+theory_simulation.csv,11,5,synthetic validation of the identifiability sketch
+timecourse.csv,12,7,Marson time-course specific-structure stability
+transform_estimator_scan.csv,20,8,transform x estimator operator predictability
+unified_results.csv,13,13,legacy merged summary (superseded by per-analysis CSVs)

@@ -1,0 +1,4 @@
+dataset,n_perts,n_genes,rel_full,rel_zscore,rel_no_mitoRibo,rel_no_topvar,cos2_sigma_offaxis,cos2_sigma_offaxis_rand
+ReplogleWeissman2022_K562_essential,112,2056,0.7153,0.8203,0.7210,0.7440,0.1585,0.1897
+ReplogleWeissman2022_rpe1,97,2061,0.8432,0.8176,0.8388,0.8366,0.1659,0.1384
+NormanWeissman2019_filtered,102,2089,0.8102,0.9053,0.9310,0.8734,0.2023,0.1895

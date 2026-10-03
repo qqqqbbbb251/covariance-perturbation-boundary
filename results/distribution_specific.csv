@@ -1,0 +1,6 @@
+dataset,n_perts,rel_mean,rel_var,rel_zero,rel_w1
+ReplogleWeissman2022_K562_essential,120,0.8123,0.5228,0.3653,0.8151
+ReplogleWeissman2022_rpe1,120,0.8335,0.3861,0.5060,0.8289
+NormanWeissman2019_filtered,102,0.9426,0.7128,0.7744,0.9329
+NadigOConner2024_jurkat,120,0.6289,0.0453,0.3907,0.6743
+TianKampmann2021_CRISPRi,120,0.1422,0.0013,0.0839,0.1971

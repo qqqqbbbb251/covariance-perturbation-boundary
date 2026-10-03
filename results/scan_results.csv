@@ -1,0 +1,2 @@
+dataset,cells,genes,n_ctrl,n_singles,global_frac_raw,global_frac_cpm,full_r2_raw,full_r2_cpm,spec_r2_raw,spec_r2_cpm,orth_corr_raw,orth_corr_cpm
+DatlingerBock2017,5905,2022,1320,29,0.6194,0.4589,0.4946,0.1308,0.5137,0.1386,0.01397,0.05207

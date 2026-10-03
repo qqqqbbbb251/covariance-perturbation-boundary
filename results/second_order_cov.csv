@@ -1,0 +1,5 @@
+dataset,n_perts,M_genes,cov_rel_full,cov_rel_null_full,cov_rel_spec,cov_rel_null_spec,var_rel_spec,var_rel_null_spec
+ReplogleWeissman2022_K562_essential,120,300,0.6113,0.0431,0.5994,0.0115,0.5206,0.0077
+ReplogleWeissman2022_rpe1,120,300,0.3836,0.0222,0.3074,-0.1003,0.3832,-0.0626
+NormanWeissman2019_filtered,102,300,0.6358,0.0347,0.6045,-0.0501,0.7109,0.0442
+NadigOConner2024_jurkat,120,300,0.0700,-0.0563,0.0674,-0.0599,0.0454,-0.0428
