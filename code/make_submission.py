@@ -77,10 +77,21 @@ mechanism of a widely used class of models, (ii) resolves the apparent tension b
 specificity-audit protocol and concrete reporting recommendations (matched-random-column,
 equal-depth and global-mode baselines).
 
+Relationship to previously published work (PLOS ONE disputing-published-work policy).
+This manuscript directly evaluates and disputes the predictive claims of a specific
+published framework, CIPHER (Kuznets-Speck et al., bioRxiv 2025,
+doi:10.1101/2025.06.27.661814), which we reproduce with its authors' released code. We
+wish to be explicit that the manuscript disputes that prior work. We have read and accept
+the PLOS ONE policy on manuscripts disputing published work, including the invitation of a
+signed review by the disputed authors during peer review, and we would welcome such a
+review.
+
 The manuscript is original, is not under consideration elsewhere, and all authors have
-approved its submission. The author declares no competing interests. All code, result
-tables and figures are provided as Supporting Information (S1 File); a citable Zenodo DOI
-will be added upon acceptance. The analyses use only publicly available data.
+approved its submission. The author declares no competing interests. The analyses use only
+publicly available data; all analysis code, result tables and figures are provided as
+Supporting Information (S1 File), and a citable Zenodo DOI will be added upon acceptance.
+We have no opposed reviewers, and we would be glad to suggest appropriate Academic Editors
+if helpful.
 
 Thank you for your consideration.
 
