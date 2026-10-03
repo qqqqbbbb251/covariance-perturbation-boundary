@@ -170,6 +170,10 @@ def main():
         shutil.copyfile(src, os.path.join(FIG_OUT, "Fig%d_fullres.png" % i))
         print("figure", i, name, im.size, "->", im2.size)
 
+    # 2b) supplementary figures, collected into one labelled PDF (Fig. S1-S29)
+    from make_si_figures_pdf import main as _make_si_figures
+    _make_si_figures()
+
     # 3) S1 file: lean archive (code + result tables + README/LICENSE), kept < 10 MB
     s1 = os.path.join(SUB, "S1_File_code_results.zip")
     skip_ext = (".pyc", ".log", ".err", ".out", ".bak", ".tmp")
