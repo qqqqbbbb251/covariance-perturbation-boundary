@@ -55,9 +55,9 @@ MAIN = [
 COVER = """\
 Dear Editors of PLOS ONE,
 
-We submit our manuscript, "A capability boundary for covariance-driven single-perturbation
-models: the perturbed gene is detected through its own coordinate, not predicted by
-covariance", for consideration as a Research Article.
+We submit our manuscript, "An empirical capability boundary for covariance-driven
+single-perturbation models: the perturbed gene is detected through its own coordinate, not
+predicted by covariance", for consideration as a Research Article.
 
 Covariance-driven forward models such as CIPHER (Delta X = Sigma u) derive perturbation
 responses from the control gene-gene covariance and are used as zero-shot "virtual cell"

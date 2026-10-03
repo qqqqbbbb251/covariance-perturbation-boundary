@@ -1,9 +1,9 @@
-# A capability boundary for covariance-driven single-perturbation models
+# An empirical capability boundary for covariance-driven single-perturbation models
 
 Code, result tables and figures for the manuscript (text not included; under review).
 
-> **A capability boundary for covariance-driven single-perturbation models: the perturbed
-> gene is detected through its own coordinate, not predicted by covariance.**
+> **An empirical capability boundary for covariance-driven single-perturbation models: the
+> perturbed gene is detected through its own coordinate, not predicted by covariance.**
 > Yichen Xie. School of Life Sciences, Peking University.
 
 Main result: the CIPHER-style forward model ΔX = Σ·u is dominated by a shared technical
