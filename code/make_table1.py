@@ -26,7 +26,7 @@ SHORT = {
 }
 
 
-def num(x, d=2):
+def num(x, d=3):
     try:
         return ("%%.%df" % d) % float(x)
     except Exception:
