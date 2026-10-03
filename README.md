@@ -1,6 +1,6 @@
 # A capability boundary for covariance-driven single-perturbation models
 
-Code, result tables and figures for the manuscript:
+Code, result tables and figures for the manuscript (text not included; under review).
 
 > **A capability boundary for covariance-driven single-perturbation models: the perturbed
 > gene is detected through its own coordinate, not predicted by covariance.**
@@ -17,7 +17,6 @@ specificity-audit protocol is provided.
 
 | path | contents |
 |---|---|
-| `paper_v13.md` | manuscript source (text; figures supplied separately) |
 | `requirements.txt` | exact package versions used |
 | `REPRODUCIBILITY.md` | environment, seeds and pipeline notes |
 | `code/` | analysis scripts (85 tasks in `run_all.py`) |
@@ -28,8 +27,9 @@ specificity-audit protocol is provided.
 
 Requires Python 3.12 with the packages in `requirements.txt` (install with
 `pip install -r requirements.txt`). The single-cell datasets are **not** included
-(they are public; see the manuscript's Data availability). Point `PERTURB_DATA` at the
-directory holding the `.h5ad` files and `CIPHER_ROOT` at the CIPHER clone (version 0.1.0).
+(they are public; dataset provenance and accessions are in `results/table_s1.csv`).
+Point `PERTURB_DATA` at the directory holding the `.h5ad` files and `CIPHER_ROOT` at the
+CIPHER clone (version 0.1.0).
 
 ```powershell
 # consistency check: recompute every headline number from the CSVs

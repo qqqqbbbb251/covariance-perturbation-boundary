@@ -38,7 +38,9 @@ Desktop.ini
 ~$*
 *.tmp
 
-# ---- heavy regenerable renders (keep the PDF) ----
+# ---- manuscript text (not published in this repo while under review) ----
+paper_v13.md
+paper_v13.pdf
 paper_v13.html
 paper_v13.docx
 
