@@ -139,7 +139,9 @@ def main():
     pypandoc.convert_file(os.path.join(SUB, "manuscript.md"), "docx",
                           outputfile=os.path.join(SUB, "manuscript.docx"),
                           extra_args=["--resource-path=" + SUB])
-    print("wrote submission/manuscript.md, .pdf and .docx")
+    from plos_format_docx import plos_format_docx
+    plos_format_docx(os.path.join(SUB, "manuscript.docx"))
+    print("wrote submission/manuscript.md, .pdf and .docx (PLOS formatting applied)")
 
     # 2) figures
     for i, name in enumerate(MAIN, 1):
