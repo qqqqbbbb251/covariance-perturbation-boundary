@@ -174,11 +174,16 @@ def analyze(path, space):
 
 def main():
     d = _PERTURB_DATA
+    # 15-dataset set used for the inverse-baseline results
     files = sys.argv[1:] if len(sys.argv) > 1 else [
-        os.path.join(d, "ReplogleWeissman2022_K562_essential.h5ad"),
-        os.path.join(d, "NadigOConner2024_jurkat.h5ad"),
-        os.path.join(d, "FrangiehIzar2021_RNA.h5ad"),
-        os.path.join(d, "NormanWeissman2019_filtered.h5ad")]
+        os.path.join(d, x + ".h5ad") for x in [
+            "DatlingerBock2017", "DatlingerBock2021", "DixitRegev2016_K562_TFs_7_days",
+            "FrangiehIzar2021_RNA", "GasperiniShendure2019_lowMOI",
+            "NadigOConner2024_hepg2", "NadigOConner2024_jurkat",
+            "NormanWeissman2019_filtered", "PapalexiSatija2021_eccite_RNA",
+            "ReplogleWeissman2022_K562_essential", "ReplogleWeissman2022_rpe1",
+            "TianKampmann2019_day7neuron", "TianKampmann2019_iPSC",
+            "TianKampmann2021_CRISPRa", "TianKampmann2021_CRISPRi"]]
     keys = ["n", "global_frac", "mean_auc", "mean_pct", "top1", "top10",
             "corr_absu_invnorm", "mean_auc_selfremoved", "mean_pct_selfremoved",
             "mean_auc_magnitude"]

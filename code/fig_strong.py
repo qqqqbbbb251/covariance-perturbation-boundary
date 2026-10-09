@@ -116,7 +116,14 @@ def run(path, n_top=2000, max_pert=150):
 
 def main():
     d = _PERTURB_DATA
-    files = sorted(glob.glob(os.path.join(d, "*.h5ad")))
+    # 13-dataset analysis set (matches the reported table)
+    names = ["DatlingerBock2017", "DatlingerBock2021", "FrangiehIzar2021_RNA",
+             "NadigOConner2024_hepg2", "NadigOConner2024_jurkat",
+             "NormanWeissman2019_filtered", "PapalexiSatija2021_eccite_RNA",
+             "ReplogleWeissman2022_K562_essential", "ReplogleWeissman2022_rpe1",
+             "TianKampmann2019_day7neuron", "TianKampmann2019_iPSC",
+             "TianKampmann2021_CRISPRa", "TianKampmann2021_CRISPRi"]
+    files = [os.path.join(d, n + ".h5ad") for n in names]
     rows = []
     for f in files:
         name = os.path.basename(f).replace(".h5ad", "")

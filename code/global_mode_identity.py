@@ -86,8 +86,17 @@ def main():
     rows = []
     print("{:<40}".format("dataset") + "".join("{:>13}".format(c) for c in cols))
     print("-" * (40 + 13 * len(cols)))
-    for f in sorted(glob.glob(os.path.join(d, "*.h5ad"))):
-        name = os.path.basename(f).replace(".h5ad", "")
+    # 16-dataset analysis set (matches the reported table)
+    names = [
+        "AissaBenevolenskaya2021", "ChangYe2021", "DatlingerBock2017",
+        "DatlingerBock2021", "FrangiehIzar2021_RNA", "NadigOConner2024_hepg2",
+        "NadigOConner2024_jurkat", "NormanWeissman2019_filtered",
+        "PapalexiSatija2021_eccite_arrayed_RNA", "PapalexiSatija2021_eccite_RNA",
+        "ReplogleWeissman2022_K562_essential", "ReplogleWeissman2022_rpe1",
+        "TianKampmann2019_day7neuron", "TianKampmann2019_iPSC",
+        "TianKampmann2021_CRISPRa", "TianKampmann2021_CRISPRi"]
+    for name in names:
+        f = os.path.join(d, name + ".h5ad")
         try:
             r = run(f)
             rows.append((name, r))
