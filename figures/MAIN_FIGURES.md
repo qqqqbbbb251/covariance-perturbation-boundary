@@ -37,7 +37,7 @@ are the remaining `figures/fig1–fig29`, `graphical_abstract.png` and `summary_
   guides are noisy; multi-guide cross-dataset transfer rises from 0.14–0.21 to 0.35–0.38).
 - **Fig. 5. Cross-laboratory / cell-line / library / time transfer of the specific
   structure.** Same-target cosine 0.38–0.49 across labs (null ≈ 0); Procrustes transfer
-  cos² 0.30–0.37; Marson D1–D4 time-course/donors 0.28–0.48.
+  cos² 0.30–0.37 (equal-capacity shuffled control 0.05–0.07); Marson D1–D4 time-course/donors 0.28–0.48.
 - **Fig. 6. The covariance operator is blind to the specific structure.** Off-axis
   predictability ≈ random (pooled p = 0.52) across data spaces and covariance estimators;
   the programme/direction decomposition (amplitudes reliable 0.85–0.96, leftover direction

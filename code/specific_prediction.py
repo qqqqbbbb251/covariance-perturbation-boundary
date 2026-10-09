@@ -129,9 +129,25 @@ def cross_predictions(nameA, genesA, tgA, RA, nameB, genesB, tgB, RB):
         Qm = U @ Vt
         preds[f] = A[f] @ Qm
     proc = cos2_rows(preds, B)
-    # rank-1 Procrustes (scalar cosine order) baseline
+    # Equal-capacity control: run the identical 5-fold Procrustes procedure
+    # (same number of fitted parameters) on a shuffled target correspondence.
+    # If the real Procrustes map beats this control, the transfer is not just
+    # the extra degrees of freedom of the orthogonal map.
+    shuf = []
+    for s in range(5):
+        rp = np.random.default_rng(1000 + s)
+        perm = rp.permutation(n)
+        Bp = B[perm]
+        pr = np.zeros_like(Bp)
+        for f in np.array_split(rp.permutation(n), 5):
+            tr = np.setdiff1d(np.arange(n), f)
+            U, S, Vt = np.linalg.svd(A[tr].T @ Bp[tr], full_matrices=False)
+            pr[f] = A[f] @ (U @ Vt)
+        shuf.append(cos2_rows(pr, Bp))
+    proc_shuf = float(np.mean(shuf))
     return {"n_targets": n, "n_common_genes": len(common_genes),
-            "cos2_identity": identity, "cos2_procrustes": proc, "cos2_random": rand}
+            "cos2_identity": identity, "cos2_procrustes": proc,
+            "cos2_procrustes_shuffled": proc_shuf, "cos2_random": rand}
 
 
 def main():
@@ -173,7 +189,8 @@ def main():
             print("cross-skip", fa, str(e)[:50], flush=True)
 
     keys = ["type", "n_targets"] + ["loo_svd_cos2_k%d" % k for k in KS] + \
-           ["n_common_genes", "cos2_identity", "cos2_procrustes", "cos2_random"]
+           ["n_common_genes", "cos2_identity", "cos2_procrustes",
+            "cos2_procrustes_shuffled", "cos2_random"]
     with open(OUT, "w") as fh:
         fh.write("pair," + ",".join(keys) + "\n")
         for r in rows:
